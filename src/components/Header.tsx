@@ -13,9 +13,11 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <div className="text-2xl font-bold font-heading gradient-pink bg-clip-text text-transparent">
-              FITFUEL
-            </div>
+            <img 
+              src="https://storage.yandexcloud.net/poehali-files/fitfuel-logo.png" 
+              alt="FitFuel" 
+              className="h-10 object-contain"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center gap-6">

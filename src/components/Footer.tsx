@@ -9,10 +9,14 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <Link to="/" className="text-2xl font-bold font-heading gradient-pink bg-clip-text text-transparent">
-              FITFUEL
+            <Link to="/" className="block mb-4">
+              <img 
+                src="https://storage.yandexcloud.net/poehali-files/fitfuel-logo.png" 
+                alt="FitFuel" 
+                className="h-10 object-contain"
+              />
             </Link>
-            <p className="text-sm text-muted-foreground mt-4">
+            <p className="text-sm text-muted-foreground">
               Ты всегда будешь в курсе новинок и выгодных предложений!
             </p>
           </div>
